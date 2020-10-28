@@ -1,0 +1,45 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "Backend server using express.",
+  "main": "server.js",
+  "scripts": {
+    "clean": "rm -r -f .\\node_modules",
+    "start:dev": "nodemon --exec babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chumlee132/node-angular-template.git"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "angular",
+    "template"
+  ],
+  "author": "Gopi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chumlee132/node-angular-template/issues"
+  },
+  "homepage": "https://github.com/chumlee132/node-angular-template#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4"
+  }
+}
